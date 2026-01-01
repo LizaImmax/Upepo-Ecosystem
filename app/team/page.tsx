@@ -8,7 +8,7 @@ export default function TeamPage() {
     {
       name: 'Elizabeth Muthoni',
       role: 'Founder and Ecosystem Architect',
-      bio: "Elizabeth is building Upepo with the conviction that growth should feel intentional, not overwhelming. She believes learning, community, and impact don't have to be fragmented—they can flow together, supporting people at every stage of their journey. Her approach is rooted in stewardship over ownership, creating a space designed to serve rather than scale for its own sake. She values depth, presence, and building systems that honor the people they're meant to serve.",
+      bio: "Elizabeth is building Upepo with the conviction that growth should feel intentional, not overwhelming. She believes learning, community, and impact don't have to be fragmented - they can flow together, supporting people at every stage of their journey. Her approach is rooted in stewardship over ownership, creating a space designed to serve rather than scale for its own sake. She values depth, presence, and building systems that honor the people they're meant to serve.",
       linkedin: 'https://www.linkedin.com/in/elizabeth-muthoni-44a378129/',
       github: 'https://github.com/LizaImmax',
       photo: 'https://github.com/LizaImmax.png',
@@ -16,7 +16,7 @@ export default function TeamPage() {
     {
       name: 'Robley Otieno',
       role: 'Founding Engineer',
-      bio: "Robley brings Upepo to life through thoughtful, intentional engineering. He is driven by the desire to build systems that empower people without adding complexity. He values clean code, accessibility, and creating digital experiences that feel human. For him, technology should serve purpose—not the other way around. His work ensures the ecosystem is as functional as it is meaningful, blending technical excellence with care for the people who use it.",
+      bio: "Robley brings Upepo to life through thoughtful, intentional engineering. He is driven by the desire to build systems that empower people without adding complexity. He values clean code, accessibility, and creating digital experiences that feel human. For him, technology should serve purpose - not the other way around. His work ensures the ecosystem is as functional as it is meaningful, blending technical excellence with care for the people who use it.",
       linkedin: 'https://www.linkedin.com/in/robley-otieno-75900426b/',
       github: 'https://github.com/roochieng',
       photo: 'https://github.com/roochieng.png',
@@ -169,10 +169,10 @@ export default function TeamPage() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-blue-300 hover:border-blue-500 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gray-800 p-8 rounded-2xl border-2 border-blue-500 hover:border-blue-400 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">👀</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Observe</h3>
-                <p className="text-gray-700 mb-6 leading-relaxed">Follow our journey on LinkedIn. See what we're building and stay updated on launches.</p>
+                <h3 className="text-2xl font-bold text-white mb-3">Observe</h3>
+                <p className="text-gray-300 mb-6 leading-relaxed">Follow our journey on LinkedIn. See what we're building and stay updated on launches.</p>
                 <a
                   href="https://www.linkedin.com/company/upepo-ecosystem/"
                   target="_blank"
@@ -186,10 +186,10 @@ export default function TeamPage() {
                 </a>
               </div>
 
-              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-green-300 hover:border-green-500 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gray-800 p-8 rounded-2xl border-2 border-green-500 hover:border-green-400 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">📚</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Learn</h3>
-                <p className="text-gray-700 mb-6 leading-relaxed">Explore the live components. Engage with content, stories, and reflection spaces.</p>
+                <h3 className="text-2xl font-bold text-white mb-3">Learn</h3>
+                <p className="text-gray-300 mb-6 leading-relaxed">Explore the live components. Engage with content, stories, and reflection spaces.</p>
                 <a
                   href="/ecosystem"
                   className="inline-flex items-center px-4 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors"
@@ -201,10 +201,10 @@ export default function TeamPage() {
                 </a>
               </div>
 
-              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-purple-300 hover:border-purple-500 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gray-800 p-8 rounded-2xl border-2 border-purple-500 hover:border-purple-400 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">🙌</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Volunteer</h3>
-                <p className="text-gray-700 mb-6 leading-relaxed">Contribute your skills, time, and passion to help the ecosystem grow.</p>
+                <h3 className="text-2xl font-bold text-white mb-3">Volunteer</h3>
+                <p className="text-gray-300 mb-6 leading-relaxed">Contribute your skills, time, and passion to help the ecosystem grow.</p>
                 <a
                   href="mailto:upepoecosystem@gmail.com?subject=Volunteering with Upepo Ecosystem"
                   className="inline-flex items-center px-4 py-2 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors"
@@ -216,10 +216,10 @@ export default function TeamPage() {
                 </a>
               </div>
 
-              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-orange-300 hover:border-orange-500 hover:shadow-xl transition-all duration-300">
+              <div className="bg-gray-800 p-8 rounded-2xl border-2 border-orange-500 hover:border-orange-400 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">🚀</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Build</h3>
-                <p className="text-gray-700 mb-6 leading-relaxed">Collaborate on components, ventures, and initiatives within the ecosystem.</p>
+                <h3 className="text-2xl font-bold text-white mb-3">Build</h3>
+                <p className="text-gray-300 mb-6 leading-relaxed">Collaborate on components, ventures, and initiatives within the ecosystem.</p>
                 <a
                   href="mailto:upepoecosystem@gmail.com?subject=Building with Upepo Ecosystem"
                   className="inline-flex items-center px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors"
