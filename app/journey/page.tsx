@@ -69,11 +69,35 @@ export default function JourneyPage() {
           >
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-upepo-dark mb-6">
-                The Ecosystem Is Opening
+                3 Components Are Now Live
               </h2>
-              <p className="body-text">
-                And the first component is coming soon.
+              <p className="text-xl text-upepo-dark/70 mb-8 max-w-2xl mx-auto">
+                The ecosystem has begun. Explore the first three spaces now available on LinkedIn.
               </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a
+                  href="https://www.linkedin.com/showcase/upepo-voices/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright text-upepo-midnight font-semibold rounded-lg hover:shadow-lg hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105"
+                >
+                  Voices →
+                </a>
+                <a
+                  href="https://www.linkedin.com/showcase/upepo-soul/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright text-upepo-midnight font-semibold rounded-lg hover:shadow-lg hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105"
+                >
+                  Soul →
+                </a>
+                <Link
+                  href="/ecosystem"
+                  className="px-6 py-3 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright text-upepo-midnight font-semibold rounded-lg hover:shadow-lg hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105"
+                >
+                  Ecosystem →
+                </Link>
+              </div>
             </div>
 
             {/* Abstract wind visualization */}
