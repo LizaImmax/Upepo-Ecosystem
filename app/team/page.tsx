@@ -130,6 +130,27 @@ export default function TeamPage() {
           </motion.div>
         </div>
 
+        {/* From the Founding Engineer */}
+        <div className="max-w-4xl mx-auto mb-20">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="bg-gradient-to-r from-upepo-ocean/20 to-upepo-midnight-light/50 backdrop-blur-sm rounded-2xl p-12 border border-upepo-wind/20"
+          >
+            <h2 className="text-3xl font-bold text-upepo-text mb-6 text-center">
+              From the Founding Engineer
+            </h2>
+            <p className="text-xl text-upepo-text-muted leading-relaxed mb-6 text-center italic">
+              "I'm here to help bring Upepo to life through thoughtful engineering. My motivation is to build systems that empower people without adding complexity. I value clean code, accessibility, and creating digital experiences that feel human. Together, we're crafting an ecosystem where technology serves purpose, not the other way around."
+            </p>
+            <p className="text-lg text-upepo-wind font-medium text-center">
+              — Robley Otieno, Founding Engineer
+            </p>
+          </motion.div>
+        </div>
+
         {/* Volunteers Section */}
         <div className="max-w-5xl mx-auto">
           <motion.div
@@ -143,13 +164,52 @@ export default function TeamPage() {
               Volunteers
             </h2>
             <div className="bg-upepo-ocean/20 backdrop-blur-sm rounded-2xl p-12 border border-upepo-wind/20">
-              <p className="text-xl text-upepo-text-muted mb-6">
-                Our volunteer community is growing. This space will soon feature the incredible people contributing their time, skills, and passion to the ecosystem.
+              <div className="text-6xl mb-4">🙌</div>
+              <p className="text-2xl text-upepo-text font-semibold mb-4">
+                6 Amazing Volunteers
               </p>
-              <p className="text-lg text-upepo-wind font-medium">
-                More coming soon...
+              <p className="text-xl text-upepo-text-muted mb-8">
+                We're grateful for the incredible people contributing their time, skills, and passion to the ecosystem. Their profiles and contributions will be featured here soon.
               </p>
+              <p className="text-lg text-upepo-text-muted mb-8">
+                Interested in contributing? We'd love to have you join us.
+              </p>
+              <a
+                href="mailto:upepoecosystem@gmail.com?subject=Volunteering with Upepo Ecosystem"
+                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright text-upepo-midnight font-semibold rounded-full hover:shadow-lg hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105"
+              >
+                Volunteer with Us
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
             </div>
+          </motion.div>
+        </div>
+
+        {/* Explore Ecosystem CTA */}
+        <div className="max-w-4xl mx-auto mt-20 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-3xl font-bold text-upepo-dark mb-6">
+              Ready to Explore?
+            </h2>
+            <p className="text-xl text-gray-600 leading-relaxed mb-8">
+              See how the 17 components work together to create pathways for learning, growth, and impact.
+            </p>
+            <a
+              href="/ecosystem"
+              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright text-upepo-midnight font-semibold rounded-lg hover:shadow-lg hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105"
+            >
+              Explore the Ecosystem
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </motion.div>
         </div>
       </div>

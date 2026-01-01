@@ -131,10 +131,10 @@ export default function StoryPage() {
             Each component serves a purpose. Together, they create pathways for people to learn with clarity, build with confidence, connect with intention, and create lasting change.
           </p>
           <Link
-            href="/ecosystem"
+            href="/team"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright text-upepo-midnight font-semibold rounded-lg hover:shadow-lg hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105"
           >
-            Explore the Ecosystem
+            See the Team
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
