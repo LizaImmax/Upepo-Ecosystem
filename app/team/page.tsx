@@ -171,7 +171,7 @@ export default function TeamPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-blue-300 hover:border-blue-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">👀</div>
-                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Observe</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Observe</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">Follow our journey on LinkedIn. See what we're building and stay updated on launches.</p>
                 <a
                   href="https://www.linkedin.com/company/upepo-ecosystem/"
@@ -188,7 +188,7 @@ export default function TeamPage() {
 
               <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-green-300 hover:border-green-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">📚</div>
-                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Learn</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Learn</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">Explore the live components. Engage with content, stories, and reflection spaces.</p>
                 <a
                   href="/ecosystem"
@@ -203,7 +203,7 @@ export default function TeamPage() {
 
               <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-purple-300 hover:border-purple-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">🙌</div>
-                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Volunteer</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Volunteer</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">Contribute your skills, time, and passion to help the ecosystem grow.</p>
                 <a
                   href="mailto:upepoecosystem@gmail.com?subject=Volunteering with Upepo Ecosystem"
@@ -218,7 +218,7 @@ export default function TeamPage() {
 
               <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-orange-300 hover:border-orange-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">🚀</div>
-                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Build</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">Build</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">Collaborate on components, ventures, and initiatives within the ecosystem.</p>
                 <a
                   href="mailto:upepoecosystem@gmail.com?subject=Building with Upepo Ecosystem"
