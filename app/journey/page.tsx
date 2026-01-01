@@ -290,6 +290,57 @@ export default function JourneyPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Call to Participate */}
+      <section className="section-container bg-gradient-to-b from-white to-upepo-light/20">
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-upepo-dark mb-4">
+                Be Part of This Journey
+              </h2>
+              <p className="text-xl text-upepo-dark/70">
+                Choose how you want to engage with the ecosystem
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <a
+                href="https://www.linkedin.com/company/upepo-ecosystem/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white p-8 rounded-2xl border-2 border-upepo-wind/30 hover:border-upepo-wind hover:shadow-lg hover:shadow-upepo-wind/20 transition-all duration-300 group"
+              >
+                <div className="text-4xl mb-4">📱</div>
+                <h3 className="text-2xl font-bold text-upepo-dark mb-3 group-hover:text-upepo-wind transition-colors">
+                  Follow the Unfolding
+                </h3>
+                <p className="text-upepo-dark/70 leading-relaxed">
+                  Stay connected on LinkedIn as each component launches and the ecosystem grows.
+                </p>
+              </a>
+
+              <a
+                href="mailto:upepoecosystem@gmail.com?subject=Getting Involved with Upepo"
+                className="bg-white p-8 rounded-2xl border-2 border-upepo-wind/30 hover:border-upepo-wind hover:shadow-lg hover:shadow-upepo-wind/20 transition-all duration-300 group"
+              >
+                <div className="text-4xl mb-4">✉️</div>
+                <h3 className="text-2xl font-bold text-upepo-dark mb-3 group-hover:text-upepo-wind transition-colors">
+                  Get Involved
+                </h3>
+                <p className="text-upepo-dark/70 leading-relaxed">
+                  Volunteer, collaborate, or share your story. Reach out and let's build together.
+                </p>
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </section>
     </div>
   );
 }

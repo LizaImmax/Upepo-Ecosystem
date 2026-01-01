@@ -140,6 +140,34 @@ export default function ExperiencePage() {
           </div>
         </div>
 
+        {/* Join Section */}
+        <div className="max-w-4xl mx-auto mb-20">
+          <div className="bg-gradient-to-r from-upepo-wind/10 to-upepo-ocean/20 p-10 rounded-2xl border border-upepo-wind/30 text-center">
+            <h2 className="text-3xl font-bold text-upepo-text mb-4">
+              Want to Experience This?
+            </h2>
+            <p className="text-lg text-upepo-text-muted mb-8 max-w-2xl mx-auto">
+              Follow our journey and be part of the community as we launch new components.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://www.linkedin.com/company/upepo-ecosystem/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-4 bg-upepo-wind text-upepo-midnight font-semibold rounded-full hover:shadow-lg hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105"
+              >
+                Follow on LinkedIn
+              </a>
+              <a
+                href="/team"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-upepo-wind text-upepo-wind font-semibold rounded-full hover:bg-upepo-wind/10 transition-all duration-300 hover:scale-105"
+              >
+                Meet the Team
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* CTA Section */}
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-upepo-text mb-4">

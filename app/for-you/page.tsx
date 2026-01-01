@@ -150,6 +150,32 @@ export default function ForYouPage() {
           </p>
         </div>
 
+        {/* Join the Movement */}
+        <div className="max-w-4xl mx-auto mb-20 py-12 bg-gradient-to-br from-upepo-wind/10 to-upepo-ocean/20 backdrop-blur-sm rounded-2xl px-8 border border-upepo-wind/30">
+          <h2 className="text-3xl font-bold text-upepo-dark mb-4 text-center">
+            Ready to Join?
+          </h2>
+          <p className="text-lg text-upepo-gray mb-8 text-center max-w-2xl mx-auto">
+            You don't have to wait. Follow us on LinkedIn, volunteer, or reach out to start your journey.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://www.linkedin.com/company/upepo-ecosystem/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-6 py-3 bg-upepo-wind text-upepo-midnight font-semibold rounded-lg hover:bg-upepo-wind-bright transition-all duration-300 hover:scale-105"
+            >
+              Follow on LinkedIn
+            </a>
+            <a
+              href="mailto:upepoecosystem@gmail.com?subject=Getting Involved with Upepo"
+              className="inline-flex items-center justify-center px-6 py-3 border-2 border-upepo-wind text-upepo-wind font-semibold rounded-lg hover:bg-upepo-wind/10 transition-all duration-300 hover:scale-105"
+            >
+              Get Involved
+            </a>
+          </div>
+        </div>
+
         {/* CTA Section */}
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-upepo-text mb-4">

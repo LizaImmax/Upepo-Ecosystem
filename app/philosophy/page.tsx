@@ -193,6 +193,46 @@ export default function PhilosophyPage() {
           </div>
         </div>
 
+        {/* Get Involved Section */}
+        <div className="max-w-5xl mx-auto mb-20">
+          <div className="bg-gradient-to-br from-upepo-ocean/30 to-upepo-wind/10 p-12 rounded-2xl border-2 border-upepo-wind/30">
+            <h2 className="text-3xl font-bold text-upepo-dark mb-6 text-center">
+              These Values Resonate?
+            </h2>
+            <p className="text-xl text-upepo-gray mb-10 text-center max-w-2xl mx-auto">
+              If this philosophy aligns with how you want to grow and build, we'd love to have you with us.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              <a
+                href="https://www.linkedin.com/company/upepo-ecosystem/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white p-6 rounded-xl text-center border-2 border-transparent hover:border-upepo-wind hover:shadow-lg transition-all duration-300 group"
+              >
+                <div className="text-3xl mb-3">👀</div>
+                <h3 className="text-lg font-bold text-upepo-dark mb-2 group-hover:text-upepo-wind transition-colors">Follow</h3>
+                <p className="text-sm text-upepo-gray">Stay updated on LinkedIn</p>
+              </a>
+              <a
+                href="mailto:upepoecosystem@gmail.com?subject=Volunteering with Upepo"
+                className="bg-white p-6 rounded-xl text-center border-2 border-transparent hover:border-upepo-wind hover:shadow-lg transition-all duration-300 group"
+              >
+                <div className="text-3xl mb-3">🙌</div>
+                <h3 className="text-lg font-bold text-upepo-dark mb-2 group-hover:text-upepo-wind transition-colors">Volunteer</h3>
+                <p className="text-sm text-upepo-gray">Contribute your skills</p>
+              </a>
+              <a
+                href="/team"
+                className="bg-white p-6 rounded-xl text-center border-2 border-transparent hover:border-upepo-wind hover:shadow-lg transition-all duration-300 group"
+              >
+                <div className="text-3xl mb-3">👥</div>
+                <h3 className="text-lg font-bold text-upepo-dark mb-2 group-hover:text-upepo-wind transition-colors">Meet Us</h3>
+                <p className="text-sm text-upepo-gray">Learn about the team</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* CTA Section */}
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-upepo-text mb-4">
