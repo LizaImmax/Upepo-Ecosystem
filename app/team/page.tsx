@@ -245,7 +245,7 @@ export default function TeamPage() {
             <h2 className="text-3xl font-bold text-upepo-dark mb-6">
               Ready to Explore?
             </h2>
-            <p className="text-xl text-gray-600 leading-relaxed mb-8">
+            <p className="text-xl text-upepo-text-muted leading-relaxed mb-8">
               See how the 17 components work together to create pathways for learning, growth, and impact.
             </p>
             <a
