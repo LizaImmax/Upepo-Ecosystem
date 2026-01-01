@@ -169,15 +169,15 @@ export default function TeamPage() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 p-8 rounded-2xl border-2 border-blue-200 hover:border-blue-400 hover:shadow-lg transition-all duration-300">
+              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-blue-300 hover:border-blue-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">👀</div>
-                <h3 className="text-2xl font-bold text-upepo-text mb-3">Observe</h3>
-                <p className="text-upepo-text-muted mb-6 leading-relaxed">Follow our journey on LinkedIn. See what we're building and stay updated on launches.</p>
+                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Observe</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">Follow our journey on LinkedIn. See what we're building and stay updated on launches.</p>
                 <a
                   href="https://www.linkedin.com/company/upepo-ecosystem/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors"
+                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   Follow Us
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,13 +186,13 @@ export default function TeamPage() {
                 </a>
               </div>
 
-              <div className="bg-gradient-to-br from-green-50 to-green-100/50 p-8 rounded-2xl border-2 border-green-200 hover:border-green-400 hover:shadow-lg transition-all duration-300">
+              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-green-300 hover:border-green-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">📚</div>
-                <h3 className="text-2xl font-bold text-upepo-text mb-3">Learn</h3>
-                <p className="text-upepo-text-muted mb-6 leading-relaxed">Explore the live components. Engage with content, stories, and reflection spaces.</p>
+                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Learn</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">Explore the live components. Engage with content, stories, and reflection spaces.</p>
                 <a
                   href="/ecosystem"
-                  className="inline-flex items-center text-green-600 font-semibold hover:text-green-700 transition-colors"
+                  className="inline-flex items-center px-4 py-2 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors"
                 >
                   Explore Now
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -201,13 +201,13 @@ export default function TeamPage() {
                 </a>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100/50 p-8 rounded-2xl border-2 border-purple-200 hover:border-purple-400 hover:shadow-lg transition-all duration-300">
+              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-purple-300 hover:border-purple-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">🙌</div>
-                <h3 className="text-2xl font-bold text-upepo-text mb-3">Volunteer</h3>
-                <p className="text-upepo-text-muted mb-6 leading-relaxed">Contribute your skills, time, and passion to help the ecosystem grow.</p>
+                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Volunteer</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">Contribute your skills, time, and passion to help the ecosystem grow.</p>
                 <a
                   href="mailto:upepoecosystem@gmail.com?subject=Volunteering with Upepo Ecosystem"
-                  className="inline-flex items-center text-purple-600 font-semibold hover:text-purple-700 transition-colors"
+                  className="inline-flex items-center px-4 py-2 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors"
                 >
                   Get Involved
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -216,13 +216,13 @@ export default function TeamPage() {
                 </a>
               </div>
 
-              <div className="bg-gradient-to-br from-orange-50 to-orange-100/50 p-8 rounded-2xl border-2 border-orange-200 hover:border-orange-400 hover:shadow-lg transition-all duration-300">
+              <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl border-2 border-orange-300 hover:border-orange-500 hover:shadow-xl transition-all duration-300">
                 <div className="text-5xl mb-4">🚀</div>
-                <h3 className="text-2xl font-bold text-upepo-text mb-3">Build</h3>
-                <p className="text-upepo-text-muted mb-6 leading-relaxed">Collaborate on components, ventures, and initiatives within the ecosystem.</p>
+                <h3 className="text-2xl font-bold text-upepo-dark mb-3">Build</h3>
+                <p className="text-gray-700 mb-6 leading-relaxed">Collaborate on components, ventures, and initiatives within the ecosystem.</p>
                 <a
                   href="mailto:upepoecosystem@gmail.com?subject=Building with Upepo Ecosystem"
-                  className="inline-flex items-center text-orange-600 font-semibold hover:text-orange-700 transition-colors"
+                  className="inline-flex items-center px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors"
                 >
                   Let's Talk
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
