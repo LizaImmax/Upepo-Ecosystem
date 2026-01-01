@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function TeamPage() {
   const coreTeam = [
@@ -9,12 +10,14 @@ export default function TeamPage() {
       role: 'Founder and Ecosystem Architect',
       linkedin: 'https://www.linkedin.com/in/elizabeth-muthoni-44a378129/',
       github: 'https://github.com/LizaImmax',
+      photo: 'https://github.com/LizaImmax.png',
     },
     {
       name: 'Robley Otieno',
       role: 'Founding Engineer',
       linkedin: 'https://www.linkedin.com/in/robley-otieno-75900426b/',
       github: 'https://github.com/roochieng',
+      photo: 'https://github.com/roochieng.png',
     },
   ];
 
@@ -33,6 +36,27 @@ export default function TeamPage() {
             </h1>
             <p className="text-xl text-upepo-gray leading-relaxed">
               Meet the people building Upepo Ecosystem with intention, care, and commitment to meaningful growth.
+            </p>
+          </motion.div>
+        </div>
+
+        {/* From the Founder */}
+        <div className="max-w-4xl mx-auto mb-20">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="bg-gradient-to-r from-upepo-midnight-light/50 to-upepo-ocean/20 backdrop-blur-sm rounded-2xl p-12 border border-upepo-wind/20"
+          >
+            <h2 className="text-3xl font-bold text-upepo-text mb-6 text-center">
+              From the Founder
+            </h2>
+            <p className="text-xl text-upepo-text-muted leading-relaxed mb-6 text-center italic">
+              "I'm building Upepo because I believe growth should feel intentional, not overwhelming. This ecosystem is rooted in the conviction that learning, community, and impact don't have to be fragmented—they can flow together, supporting people at every stage of their journey. This is stewardship, not ownership—a space designed to serve, not to scale for its own sake."
+            </p>
+            <p className="text-lg text-upepo-wind font-medium text-center">
+              — Elizabeth Muthoni, Founder
             </p>
           </motion.div>
         </div>
@@ -59,10 +83,14 @@ export default function TeamPage() {
                   className="bg-upepo-ocean/20 backdrop-blur-sm rounded-2xl p-8 border border-upepo-wind/20 hover:border-upepo-wind/40 transition-all duration-300 hover:shadow-lg hover:shadow-upepo-wind/10"
                 >
                   <div className="text-center mb-6">
-                    <div className="w-24 h-24 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-4xl font-bold text-upepo-midnight">
-                        {member.name.split(' ').map(n => n[0]).join('')}
-                      </span>
+                    <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-upepo-wind/30">
+                      <Image
+                        src={member.photo}
+                        alt={member.name}
+                        width={128}
+                        height={128}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <h3 className="text-2xl font-bold text-upepo-text mb-2">
                       {member.name}

@@ -19,12 +19,12 @@ export default function Header() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/story', label: 'Our Story' },
+    { href: '/team', label: 'Team' },
     { href: '/ecosystem', label: 'The Ecosystem' },
     { href: '/for-you', label: 'For You' },
     { href: '/experience', label: 'Experience' },
     { href: '/philosophy', label: 'Philosophy' },
     { href: '/journey', label: 'The Journey' },
-    { href: '/team', label: 'Team' },
   ];
 
   return (
