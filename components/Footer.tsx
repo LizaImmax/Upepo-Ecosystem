@@ -28,6 +28,9 @@ export default function Footer() {
             <Link href="/ecosystem" className="text-upepo-text-muted hover:text-upepo-wind transition-colors">
               Ecosystem
             </Link>
+            <Link href="/team" className="text-upepo-text-muted hover:text-upepo-wind transition-colors">
+              Team
+            </Link>
             <a href="mailto:upepoecosystem@gmail.com" className="text-upepo-text-muted hover:text-upepo-wind transition-colors">
               Contact
             </a>

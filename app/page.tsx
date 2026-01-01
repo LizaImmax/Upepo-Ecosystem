@@ -84,15 +84,54 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Start Here Section */}
+      <section className="relative py-20 px-6 bg-gradient-to-b from-upepo-midnight to-upepo-midnight-light">
+        <div className="max-w-4xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center"
+          >
+            <div className="inline-block px-4 py-2 bg-upepo-wind/10 rounded-full mb-6 border border-upepo-wind/20">
+              <span className="text-sm font-semibold text-upepo-wind uppercase tracking-wide">New Here?</span>
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-bold text-upepo-text mb-6">
+              Start Here
+            </h2>
+            
+            <p className="text-xl text-upepo-text-muted mb-8 leading-relaxed max-w-2xl mx-auto">
+              The ecosystem is launching in phases. Follow us on LinkedIn to stay updated on new components, launches, and opportunities to join.
+            </p>
 
+            <a
+              href="https://www.linkedin.com/company/upepo-ecosystem/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-10 py-5 bg-gradient-to-r from-upepo-wind to-upepo-wind-bright text-upepo-midnight font-semibold rounded-full hover:shadow-xl hover:shadow-upepo-wind/50 transition-all duration-300 hover:scale-105 text-lg"
+            >
+              <svg className="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              Follow on LinkedIn
+            </a>
+
+            <p className="text-sm text-upepo-text-muted mt-6">
+              Join the conversation • See what's launching • Be part of the journey
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
       {/* Stats */}
       <section className="relative py-16 border-y border-upepo-wind/20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '17', label: 'Integrated Components' },
-              { number: '10+', label: 'Learning Pathways' },
+              { number: '3', label: 'Live Now' },
+              { number: '14', label: 'Launching Soon' },
               { number: '∞', label: 'Growth Opportunities' },
               { number: '1', label: 'Unified Ecosystem' },
             ].map((stat, i) => (
@@ -158,6 +197,108 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* What's Live Now Section */}
+      <section className="relative py-20 px-6 bg-upepo-midnight-light/30">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="text-center mb-12">
+              <div className="inline-block px-4 py-2 bg-green-500/10 rounded-full mb-4 border border-green-500/20">
+                <span className="text-sm font-semibold text-green-400 uppercase tracking-wide">Launching in Phases</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-upepo-text mb-6">
+                What's Live Now
+              </h2>
+              <p className="text-xl text-upepo-text-muted max-w-2xl mx-auto">
+                The ecosystem is unfolding intentionally. Here's what's currently active and what's coming next.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              {/* Live Now */}
+              <div className="bg-upepo-midnight/50 backdrop-blur-sm rounded-2xl p-8 border-2 border-green-500/30">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+                  <h3 className="text-2xl font-bold text-green-400">Live Now</h3>
+                </div>
+                <div className="space-y-4">
+                  {[
+                    { name: 'Voices', description: 'Share your story and amplify lived experiences', link: 'https://www.linkedin.com/showcase/upepo-voices/' },
+                    { name: 'Ecosystem', description: 'Explore the interconnected components', link: '/ecosystem' },
+                    { name: 'Soul', description: 'Reflection, alignment, and inner growth', link: 'https://www.linkedin.com/showcase/upepo-soul/' },
+                  ].map((item, i) => (
+                    <a 
+                      key={i} 
+                      href={item.link}
+                      target={item.link.startsWith('http') ? '_blank' : undefined}
+                      rel={item.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                      className="flex items-start gap-3 p-4 bg-green-500/5 rounded-lg border border-green-500/10 hover:bg-green-500/10 hover:border-green-500/20 transition-all duration-300 group cursor-pointer"
+                    >
+                      <svg className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                      <div className="flex-1">
+                        <h4 className="text-lg font-semibold text-upepo-text mb-1 group-hover:text-green-400 transition-colors">{item.name}</h4>
+                        <p className="text-sm text-upepo-text-muted">{item.description}</p>
+                      </div>
+                      <svg className="w-5 h-5 text-green-400 flex-shrink-0 mt-1 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              {/* Coming Soon */}
+              <div className="bg-upepo-midnight/50 backdrop-blur-sm rounded-2xl p-8 border-2 border-upepo-wind/30">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-3 h-3 bg-upepo-wind rounded-full"></div>
+                  <h3 className="text-2xl font-bold text-upepo-wind">Coming Soon</h3>
+                </div>
+                <div className="space-y-3">
+                  <p className="text-upepo-text-muted mb-4">14 more components launching throughout 2026:</p>
+                  {[
+                    'Learn - Structured learning pathways',
+                    'Build - Venture creation & innovation',
+                    'Connect - Community networks',
+                    'Create - Content & creative expression',
+                    'And 10 more components...',
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-start gap-3 p-3 bg-upepo-wind/5 rounded-lg border border-upepo-wind/10">
+                      <svg className="w-5 h-5 text-upepo-wind flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <p className="text-sm text-upepo-text-muted">{item}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <p className="text-upepo-text-muted mb-6">
+                Follow us on LinkedIn to stay updated on new launches and opportunities
+              </p>
+              <a
+                href="https://www.linkedin.com/company/upepo-ecosystem/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 border-2 border-upepo-wind text-upepo-wind font-semibold rounded-full hover:bg-upepo-wind/10 transition-all duration-300 hover:scale-105"
+              >
+                Stay Updated
+                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </motion.div>
         </div>
       </section>
 

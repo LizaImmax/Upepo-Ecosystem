@@ -24,6 +24,7 @@ export default function Header() {
     { href: '/experience', label: 'Experience' },
     { href: '/philosophy', label: 'Philosophy' },
     { href: '/journey', label: 'The Journey' },
+    { href: '/team', label: 'Team' },
   ];
 
   return (
